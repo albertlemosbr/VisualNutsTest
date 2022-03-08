@@ -78,21 +78,6 @@ function mostCommonOfficialLanguage(database) {
   ).reduce((a, v) => (v[1] >= a[1] ? v : a), [null, 0])[0];
 }
 
-// console.log('countCountryWorld');
-// console.log(countCountryWorld(database));
-
-// console.log('findCountryByLanguages');
-// console.log(findCountryByLanguages(database, 'de'));
-
-// console.log('countOfficialLanguages');
-// console.log(countOfficialLanguages(database));
-
-// console.log('countryWithHighestLanguages');
-console.log(countryWithHighestLanguages(database));
-
-// console.log('mostCommonOfficialLanguage');
-// console.log(mostCommonOfficialLanguage(database));
-
 module.exports = {
   countCountryWorld,
   findCountryByLanguages,
